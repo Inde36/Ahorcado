@@ -45,12 +45,10 @@ public class Principal {
                         System.out.println("Que palabra es?");
                         String PResolver = sc.nextLine();
                         ResolverPalabra(PResolver);
-                    }else{
-                        System.out.println("EEEEe");
                     }
 
                 } else {
-                    System.out.println("No contiene");
+                    System.out.println("No contiene esa letra");
                    contador++;
                 }
                 }while (contador < 6);
